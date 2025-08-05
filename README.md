@@ -1,6 +1,8 @@
-The typst documentation in a single markdown file, made for use with llms.
+The [typst](https://github.com/typst/typst/) documentation in a single markdown file, made for use with llms.
 
-To generate the markdown `docs.md` invoke the 'generate.sh' script from the repo root.
+typst documentation included under the Apache 2.0 License.
+
+To generate the markdown `docs.md` invoke the `generate.sh` script from the repo root.
 
 Requirements:
 + curl

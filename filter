@@ -1,0 +1,7 @@
+.[2]?.children?[14]? |= empty | .. | objects
+| select((.kind == "html") or (.details | type == "string"))
+|   if (.contents | type == "string") then .contents
+    elif (.title | type == "string") and (.details | type == "string") then "<h1>" + .name + "</h1>" + .details
+    elif (.name | type == "string") and (.required | type == "boolean") then .name + .details + .example
+    else empty
+    end

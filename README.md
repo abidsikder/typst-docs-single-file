@@ -1,4 +1,4 @@
-The [typst](https://github.com/typst/typst/) documentation in a single markdown file, made for use with llms.
+The [typst](https://github.com/typst/typst/) 0.13.1 documentation in a single markdown file, made for use with llms.
 
 typst documentation included under the Apache 2.0 License.
 
